@@ -1,0 +1,213 @@
+{
+  "test_period": {
+    "start": "2026-01-01 00:00:00",
+    "end": "2026-01-03 23:59:00"
+  },
+  "summary": {
+    "starting_balance": 10000.0,
+    "final_balance": 9819.499999999998,
+    "total_pnl": -180.50000000000182,
+    "max_drawdown": 470.1000000000022,
+    "max_drawdown_percent": 4.568690716840326
+  },
+  "statistics": {
+    "total_trades": 14,
+    "wins": 4,
+    "losses": 10,
+    "win_rate": 28.57142857142857,
+    "profit_factor": 0.702145214521451,
+    "avg_win": 106.37500000000045,
+    "avg_loss": 60.600000000000364,
+    "largest_win": 150.0,
+    "largest_loss": -100.0
+  },
+  "exit_reasons": {
+    "TIME_EXIT": 8,
+    "TAKE_PROFIT": 2,
+    "STOP_LOSS": 4
+  },
+  "trades": [
+    {
+      "entry_time": "2026-01-02 06:40:00",
+      "exit_time": "2026-01-02 08:40:00",
+      "direction": "LONG",
+      "entry_price": 4375.37,
+      "exit_price": 4374.48,
+      "sl": 4365.37,
+      "tp": 4390.37,
+      "pnl": -8.900000000003274,
+      "exit_reason": "TIME_EXIT",
+      "duration_min": 120,
+      "balance_after": 9991.099999999997
+    },
+    {
+      "entry_time": "2026-01-02 07:05:00",
+      "exit_time": "2026-01-02 09:05:00",
+      "direction": "LONG",
+      "entry_price": 4377.56,
+      "exit_price": 4373.09,
+      "sl": 4367.56,
+      "tp": 4392.56,
+      "pnl": -44.70000000000255,
+      "exit_reason": "TIME_EXIT",
+      "duration_min": 120,
+      "balance_after": 9946.399999999994
+    },
+    {
+      "entry_time": "2026-01-02 07:20:00",
+      "exit_time": "2026-01-02 09:20:00",
+      "direction": "LONG",
+      "entry_price": 4378.26,
+      "exit_price": 4372.56,
+      "sl": 4368.26,
+      "tp": 4393.26,
+      "pnl": -56.99999999999819,
+      "exit_reason": "TIME_EXIT",
+      "duration_min": 120,
+      "balance_after": 9889.399999999996
+    },
+    {
+      "entry_time": "2026-01-02 07:45:00",
+      "exit_time": "2026-01-02 09:45:00",
+      "direction": "LONG",
+      "entry_price": 4379.59,
+      "exit_price": 4377.09,
+      "sl": 4369.59,
+      "tp": 4394.59,
+      "pnl": -25.0,
+      "exit_reason": "TIME_EXIT",
+      "duration_min": 120,
+      "balance_after": 9864.399999999996
+    },
+    {
+      "entry_time": "2026-01-02 09:30:00",
+      "exit_time": "2026-01-02 10:45:00",
+      "direction": "LONG",
+      "entry_price": 4378.92,
+      "exit_price": 4393.92,
+      "sl": 4368.92,
+      "tp": 4393.92,
+      "pnl": 150.0,
+      "exit_reason": "TAKE_PROFIT",
+      "duration_min": 75,
+      "balance_after": 10014.399999999996
+    },
+    {
+      "entry_time": "2026-01-02 09:50:00",
+      "exit_time": "2026-01-02 10:45:00",
+      "direction": "LONG",
+      "entry_price": 4380.47,
+      "exit_price": 4395.47,
+      "sl": 4370.47,
+      "tp": 4395.47,
+      "pnl": 150.0,
+      "exit_reason": "TAKE_PROFIT",
+      "duration_min": 55,
+      "balance_after": 10164.399999999996
+    },
+    {
+      "entry_time": "2026-01-02 10:30:00",
+      "exit_time": "2026-01-02 12:30:00",
+      "direction": "LONG",
+      "entry_price": 4388.78,
+      "exit_price": 4388.75,
+      "sl": 4378.78,
+      "tp": 4403.78,
+      "pnl": -0.2999999999974534,
+      "exit_reason": "TIME_EXIT",
+      "duration_min": 120,
+      "balance_after": 10164.099999999999
+    },
+    {
+      "entry_time": "2026-01-02 11:45:00",
+      "exit_time": "2026-01-02 13:45:00",
+      "direction": "LONG",
+      "entry_price": 4388.27,
+      "exit_price": 4394.31,
+      "sl": 4378.27,
+      "tp": 4403.27,
+      "pnl": 60.39999999999964,
+      "exit_reason": "TIME_EXIT",
+      "duration_min": 120,
+      "balance_after": 10224.499999999998
+    },
+    {
+      "entry_time": "2026-01-02 12:20:00",
+      "exit_time": "2026-01-02 14:20:00",
+      "direction": "LONG",
+      "entry_price": 4389.05,
+      "exit_price": 4395.56,
+      "sl": 4379.05,
+      "tp": 4404.05,
+      "pnl": 65.10000000000218,
+      "exit_reason": "TIME_EXIT",
+      "duration_min": 120,
+      "balance_after": 10289.6
+    },
+    {
+      "entry_time": "2026-01-02 12:45:00",
+      "exit_time": "2026-01-02 14:45:00",
+      "direction": "LONG",
+      "entry_price": 4394.93,
+      "exit_price": 4387.92,
+      "sl": 4384.93,
+      "tp": 4409.93,
+      "pnl": -70.10000000000218,
+      "exit_reason": "TIME_EXIT",
+      "duration_min": 120,
+      "balance_after": 10219.499999999998
+    },
+    {
+      "entry_time": "2026-01-02 13:25:00",
+      "exit_time": "2026-01-02 15:20:00",
+      "direction": "LONG",
+      "entry_price": 4394.39,
+      "exit_price": 4384.39,
+      "sl": 4384.39,
+      "tp": 4409.39,
+      "pnl": -100.0,
+      "exit_reason": "STOP_LOSS",
+      "duration_min": 115,
+      "balance_after": 10119.499999999998
+    },
+    {
+      "entry_time": "2026-01-02 13:40:00",
+      "exit_time": "2026-01-02 15:20:00",
+      "direction": "LONG",
+      "entry_price": 4395.06,
+      "exit_price": 4385.06,
+      "sl": 4385.06,
+      "tp": 4410.06,
+      "pnl": -100.0,
+      "exit_reason": "STOP_LOSS",
+      "duration_min": 100,
+      "balance_after": 10019.499999999998
+    },
+    {
+      "entry_time": "2026-01-02 14:05:00",
+      "exit_time": "2026-01-02 14:40:00",
+      "direction": "LONG",
+      "entry_price": 4396.15,
+      "exit_price": 4386.15,
+      "sl": 4386.15,
+      "tp": 4411.15,
+      "pnl": -100.0,
+      "exit_reason": "STOP_LOSS",
+      "duration_min": 35,
+      "balance_after": 9919.499999999998
+    },
+    {
+      "entry_time": "2026-01-02 15:10:00",
+      "exit_time": "2026-01-02 15:20:00",
+      "direction": "LONG",
+      "entry_price": 4399.83,
+      "exit_price": 4389.83,
+      "sl": 4389.83,
+      "tp": 4414.83,
+      "pnl": -100.0,
+      "exit_reason": "STOP_LOSS",
+      "duration_min": 10,
+      "balance_after": 9819.499999999998
+    }
+  ]
+}
